@@ -122,7 +122,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Quinta Semana</h2>
+          <h2>Novena Semana</h2>
           <nav aria-label="breadcrumb mx-auto" role="navigation">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
@@ -142,16 +142,16 @@
       <!-- CICLO VIDA SOFT -->
       <div class="row mb-5 justify-content-center">
         <div class="col-md-5">
-          <br><img src="images/semanas/sem5.0.png" class="img-fluid rounded shadow w-100" alt="about-img">
+          <br><img src="images/semanas/subsistemas1.jpg" class="img-fluid rounded shadow w-100" alt="about-img">
         </div>
         <div class="col-md-5">
           <div class="content">
-            <h2>Factores de Calidad</h2>            
-            <p style="text-align: justify;">
-                Son atributos que influyen en el nivel de satisfacción que brinda el producto al cliente e incluso pueden determinar el éxito del proyecto.
-                <br><br>
-                Si los requerimientos funcionales especifican el comportamiento del sistema, los factores de calidad establecen las <b>cualidades del comportamiento.</b> Existen diferentes maneras de clasificarlos, pero más allá de la clasificación que adopten, es importante capturarlos antes de que se diseñe la solución y ni cuando el producto se verifica.
-            </p>
+            <h1>Subsistemas</h1>            
+            Un subsistema no es ni una función ni un objeto, sino un paquete de clases, asociaciones, operaciones, sucesos y restricciones interrelacionados, y que tienen una interfaz razonablemente bien definida y pequeña con los demás subsistemas. 
+
+      Normalmente, un subsistema se identifica por los servicios que proporciona. 
+
+      Un servicio es un grupo de funciones relacionadas que comparten algún propósito común, tal como el procesamiento de entrada-salida. 
           </div>
         </div>
       </div>
@@ -159,109 +159,107 @@
       <!-- METODOLOGIA DEF -->
       <div class="row justify-content-center">
         <div class="col-md-5 order-md-2 order-1">
-            <img src="images/semanas/sem5.3.png" class="img-fluid rounded shadow w-100" alt="" style="height: 350px;">
+          <div class="content">
+            <h4>Identificación de los subsistemas</h4> 
+                <p>1. La descomposición en subsistemas se revisa en forma constante siempre que se
+                  tratan temas nuevos: los subsistemas se combinan en un subsistema, un
+                  subsistemas complejo se divide en partes y se añaden algunos subsistemas
+                  para que se encarguen de nueva funcionalidad</p>
+                <p>2. La descomposición en subsistemas inicial debe derivarse de los requerimientos
+                  funcionales</p>
+                <p>3. Los subsistemas también son medios adecuados para identificar las partes del
+                  sistema que debe desarrollar de modo independiente un equipo separado.</p>
+                <p>4. El subsistema de diseño se utiliza para encapsular las colaboraciones de modo
+                  que los clientes del subsistema puedan ignorar por completo el diseño interno
+                  del subsistema, incluso cuando utilicen los servicios que ofrece el subsistema</p>
+          </div>
           </div>
           <div class="col-md-5 order-md-1 order-2">
             <div class="content">
-            <h2>Clasificación de los factores de calidad</h2> 
-            <p style="text-align: justify;">  Los factores de calidad se clasifican en dos tipos de factores:</p>
-            <ol style="color: #9a9a9a;">
-              <li><b>Internos:</b> No pueden observarse durante la ejecución del sistema y afectan únicamente al equipo de desarrollo.</li> <br>
-              <li><b>Externos:</b> Son percibidos y valorados por los usuarios.</li><br>
-            </ol>
+            <h4>Utilzación de los subsistemas</h4> 
+                <p>1. Se pueden ordenar, configurar o entregar independientemente</p>
+                <p>2. Se puede desarrollar independientemente, siempre que las interfaces no se
+                  cambien</p>
+                <p>3. Se pueden desplegar independientemente a través de un conjunto de nodos
+                  computacionales distribuidos</p>
+                <p>4. Se pueden cambiar independientemente sin romper otros componentes de los
+                  sistemas</p>
           </div>
         </div>
+      </div>
+      <h2>Ejemplo de subsistemas</h2>
+      <div class="row justify-content-center">
+        
+        <div class="col-md-5 order-md-2  order-1">
+          <div class="content">
+            <img src="images/semanas/ejemplosubsistema.JPG" alt="">
+          </div>
+          </div>
+         
       </div>
 
       <br>
       <!-- fact inet ext-->
       <div class="row justify-content-center">
-        <div class="col-md-10 ">
-          <div class="content">
-            <h2 style="text-align: center; color: black;">Factores de Calidad Internos</h2>
-
-            <p style="text-align: justify;">No son observables durante la ejecución del sistema.
-            Son propiedades que se persiben durante el desarrollo, la verificación o mantenimiento, mientras que se implementa código, se modifica, se usa o se mueve a otra plataforma. Afectan directamente al usuario cuando una ineficiencia en la funcionalidad degrada el perfomance o cuando un cambio en los requerimientos demanda un tiempo o costo excesivo.</p>
-
-            <img src="images/semanas/sem5.4.png" class="img-fluid rounded shadow w-100" alt="about-img">
-          </div>
-
-          <div class="content">
-            <h2 style="text-align: center; color: black;">Factores de Calidad Externos</h2>
-
-            <p style="text-align: justify;"> Hay diversos factores de calidad externos y entre los más conocidos están:  </p>
-            <ol style="color: #9a9a9a;">
-                <li><b>1.</b> Integridad.</li> 
-                <li><b>2.</b> Confiabilidad.</li>
-                <li><b>3.</b> Disponibilidad.</li>
-            </ol>
-                
-            <br>
-            <h3 style="text-align: center; color: black;">Integridad </h3>
-
-            <p style="text-align: justify;"> Se ocupa de prevenir la pérdida de información y preservar cierto nivel de correctitud en los datos.
-            Los datos deben protegerse de errores accidentales e intencionales así como los taques deliberados pueden tenr las mismas consecuencias que los accidentes.
-            <br>
-            La intergridad requiere controlar también los datos recibidos de otros sistemas. El sistema puede preservar la integridad sin comprometer otros factores como por ejemplo la usabilidad.</p>
-
-            <h3 style="text-align: center; color: black;">Confiabilidad </h3>
-
-            <p style="text-align: justify;">Se refiere a la capacidad del software para ejecutarse sin fallar por un período de tiempo. Los problemas de confiabilidad se producen cuando se ingresan datos no válidos, el código tiene errores, un componente no está disponible cuando se necesita o el hardware falla.
-            <br>
-            La confiabilidad esta entonces intimamente ligada a la robustez y disponibilidad. Los sistemas con grandes requerimientos de confiabilidad deben ser verficados rigurosamente. La manera de medir la confiabilidad puede ser: </p>
-            <ol style="color: #9a9a9a;">
-                <li><b>1.</b> Porcentaje de operaciones que se ejecutan correctamente en un período.</li> 
-                <li><b>2.</b> Promedio de tiempo entre fallas.</li>
-            </ol>
-
-            <br>
-            <h3 style="text-align: center; color: black;">Disponibilidad </h3>
-
-            <p style="text-align: justify;">Se refiere al tiempo durante el cual el sistema estará en servicio ofreciendo toda su funcionalidad. El sistema está en servicio desde que empieza a funcionar hasta que termina de ejecutarse por una falla o por una parada de manteniento planificada o no.
-                <br>
-            Las tareas de mantenimiento pueden ser borrar archivos temporales, transferir datos o recibirlos, desfragmentar el disco, etc. Observando que la palabra mantenimiento es usada para referirse a una tarea y a una etapa en el proceso de desarrollo. Hay funcionalidades que son más críticas que otras en el sentido de que son esenciales para que el usuario realice una tarea.
-            </p>
-          </div>
+        <div class="col-md-3 ">
+          <h4>SUBSISTEMA DE RECOLECCIÓN DE DATOS</h4>
+          <p>Es el encargado de la interfaz principal y provee de acceso a los métodos
+            implementados en la herramienta.</p>
         </div>
-      </div>
-
-     
-      <div class="row justify-content-center">
-        <div class="col-md-10 ">
-            <div class="content">
-                <h2 style="text-align: center; color: black;">Diagrama de Casos de Uso</h2>
-            <p>Un caso de uso es una descripción de las acciones de un sistema desde el punto de vista del usuario. Es una herramienta valiosa dado que es una técnica de aciertos y errores para obtener los requerimientos del sistema, justamente desde el punto de vista de un usuario.
-            <br>
-            Los diagramas de casos de uso modelan la funcionalidad del sistema usando actores y casos de uso. Siendo el caso de uso un servicio o una función provista por el sistema para el usuario. </p>
-    
-                <img src="images/semanas/sem5.5.png" class="img-fluid rounded shadow w-100" alt="about-img">
-              </div>
+        <div class="col-md-3 ">
+          <h4>SUBSISTEMA DE PROCESAMIENTO DE DATOS</h4>
+          <p>Responde a las llamadas hechas al método hibrido MST-20PT</p>
         </div>
-      </div>
+        <div class="col-md-3 ">
+          <h4>SUBSISTEMA DE DESPLIEGUE DE DATOS</h4>
+          pSu función básica es comunicar al usuario los resultados de la ejecución del método
+          hibrido. 
+        </div>
 
-    <div class="row justify-content-center">
-        <div class="col-md-10 ">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-5">
+            <br><img src="images/semanas/componen.jpg" class="img-fluid rounded shadow w-100" alt="about-img">
+          </div>
+          <div class="col-md-5">
             <div class="content">
-                <h2 style="text-align: center; color: black;">Elementos y estructura del diagrama de casos de uso</h2>
-                <p>Para garantizar que el diagrama de casos de uso sea comprensible para todo el mundo de un vistazo, se
-                    utilizan elementos estandarizados para elaborarlo. En primer lugar, hay tres elementos principales:</p>
-    
-                <ol style="color: #9a9a9a;">
-                    <li><b>1. Actor: </b> tanto si es una persona, como un sistema, se representa con el dibujo de una figura humana esquemática.</li>
-                    <li><b>2. Sistema: </b> el sistema al que se refiere el caso de uso tiene forma de rectángulo.</li>
-                    <li><b>3. Caso de uso: </b> se muestra como una elipse que suele incluir un texto describiendo brevemente el proceso. </li>
-                </ol>
-    
-                <img src="images/semanas/sem5.6.jpg" class="img-fluid rounded shadow w-100" alt="about-img">
+              <h1>Componente de software</h1>            
+              <p>Un sistema esta formado por subsistemas. Cada subsistema
+                corresponde una serie de opciones, cada una de las cuales
+                ejecuta un programa especifico. Cada programa realiza un
+                requerimiento o un conjunto de ellos.</p>
             </div>
+          </div>
         </div>
-    </div>
 
-      
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-5">
+            <div class="content">
+              <h1>Diagramas de componente</h1>            
+              <p>Los Diagramas de Componentes ilustran las piezas del
+                software, controladores embebidos, etc. que conformarán
+                un sistema. Un diagrama de Componentes tiene un nivel
+                más alto de abstracción que un diagrama de clase –
+                usualmente un componente se implementa por una o más
+                clases (u objetos) en tiempo de ejecución. Estos son
+                bloques de construcción, como eventualmente un
+                componente puede comprender una gran porción de un
+                sistema.</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <br><img src="images/semanas/componente.png" class="img-fluid rounded shadow w-100" alt="about-img">
+            
+          </div>
+        </div>
 
 
-    </div> <!-- End container -->
+      </div> <!-- End container -->
   </section> <!-- End section -->
+
+
+
+
+  </div>
 
   <footer id="footer" class="bg-one">
     <div class="top-footer">
