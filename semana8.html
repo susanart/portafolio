@@ -142,14 +142,12 @@
       <!-- CICLO VIDA SOFT -->
       <div class="row mb-5 justify-content-center">
         <div class="col-md-5">
-          <br><img src="images/semanas/diseno.jpg" class="img-fluid rounded shadow w-100" alt="about-img">
+          <br><img src="images/semanas/semana8.png" class="img-fluid rounded shadow w-100" alt="about-img">
         </div>
         <div class="col-md-5">
           <div class="content">
-            <h2>Introducción al diseño</h2>            
-            <p>El diseño de un sistema de información produce los elementos que establecen cómo el sistema cumplirá los requerimientos identificados durante el análisis del sistema. A esta etapa se le conoce también con el nombre de Diseño Lógico.
-                <br><br>
-                El proceso de diseño incluye agregar formalidad y detalles durante el desarrollo del diseño, y regresar a los diseños anteriores y corregirlos.</p>
+            <h2>Métricas para Sistemas Orientados a Objetos</h2>            
+            <p>Las métricas OO se centran en métricas que se pueden aplicar a las características de encapsulamiento, ocultamiento de información, herencia y técnicas de abstracción de objetos que hagan única a esa clase. Como en todas las métricas los objetivos principales de las métricas OO se derivan del software convencional: comprender mejor la calidad del producto, estimar la efectividad del proceso y mejorar la calidad del trabajo realizado a nivel del proyecto.</p>
           </div>
         </div>
       </div>
@@ -157,15 +155,16 @@
       <!-- METODOLOGIA DEF -->
       <div class="row justify-content-center">
         <div class="col-md-5 order-md-2 order-1">
-            <img src="images/semanas/diseno2.jpg" class="img-fluid rounded shadow w-100" alt="" style="height: 350px;">
+            <img src="images/semanas/sem8.1.png" class="img-fluid rounded shadow w-100" alt="" style="height: 350px;">
           </div>
           <div class="col-md-5 order-md-1 order-2">
             <div class="content">
-            <h1>Diseño de software</h1> 
-                <p>1. <b>Diseño de datos:</b> transforma el modelo de dominio de la información en las estructuras de datos necesarias para implementar el software.</p>
-                <p>2. <b>Diseño arquitectónico:</b> define la relación entre los principales elementos estructurales del programa.</p>
-                <p>3. <b>Diseño de interfaz:</b> describe cómo se comunica el software consigo mismo, con los sistemas que operan con él y con los operadores que lo emplean.</p>
-                <p>4. <b>Diseño procedimental:</b> transforma elementos estructurales de la arquitectura del programa en una descripción procedimental de los componentes de software.</p>
+            <h1>Objetivos de las métricas O.O </h1> 
+                <p> Los objetivos principales de las métricas orientadas a objetos son los mismos que los existentes para las métricas surgidas para el software estrucutrado: </p>
+
+                <p> <b>1.</b> Comprender mejor la calidad del producto</p>
+                <p> <b>2.</b> Estimar la efectividad del proceso</p>
+                <p> <b>3.</b> Mejorar la calidad del trabajo realizado en el nivel del proyecto</p>
           </div>
         </div>
       </div>
@@ -175,29 +174,61 @@
       <div class="row justify-content-center">
         <div class="col-md-10 ">
           <div class="content">
-            <h2 style="text-align: center; color: black;">Diagramas UML utilizados en el diseño</h2>
-            <br><br>
-            <h4>Diagrama de despliegue</h4><br><br>
-            <img src="images/semanas/diagramauml.JPG" class="img-fluid rounded shadow w-100" alt="about-img">
-
-            <p>
-
-                El diagrama de despliegue permite mostrar la arquitectura en tiempo de ejecución del sistema respecto al hardware y software. Se pueden distinguir componentes y nodos, así como las relaciones entre estos.
-                
-                La arquitectura lógica del diagrama de despliegue es la siguiente:</p>
-                <p>1. <b>Presentación en la computadora del cliente:</b> la lógica de aplicaciones en un servidor de la aplicación y el almacenamiento en un servidor de los subsistemas se ira realizando de manera distribuida cada vez más.</p>
-                <p>2. <b>Capa lógica de presentación:</b> de aplicaciones en la computadora del cliente, en su almacenamiento o en su servidor.</p>
-
-
-                    <h2 style="text-align: center; color: black;">Subsistemas y clases</h2>
-                    <p>Un subsistema se caracteriza por los servicios que proporciona a otros subsistemas. Un servicio es un conjunto de operaciones relacionadas que comparten un propósito común. El conjunto de servicios disponible de un subsistema para otros es llamada interfaz de programación de aplicaciones (API). Incluye el nombre de las aplicaciones, parámetros y sus respuestas.</p>
+            <h2 style="text-align: center; color: black;">Características del software Orientado a Objetos</h2>
             
-                      <img src="images/semanas/subsistemas.jpg" alt="">
+            <p>El software orientado a objetos es esencialmente distinto del software que se desarrolla utilizando métodos convencionales. Por esta razón, las métricas para sistemas 00 deben de concordarse a las características que distinguen el software  00 del software convencional.</p>
+
+            <p>Se define cinco características que dan lugar a unas
+              métricas especializadas, que son:</p>
+
+            <p> <b>1.</b> Localización</p>
+            <p> <b>2.</b> Encapsulamiento</p>
+            <p> <b>3.</b> Ocultamiento de información</p>    
+            <p> <b>4.</b> Hrencia</p>
+            <p> <b>5.</b> Técnicas de abstracción de objetos</p>
+
           </div>
         </div>
       </div>
 
+      <div class="row justify-content-center">
+        <div class="col-md-5 order-md-2 order-1">
+            <img src="images/semanas/sem8.3.png" class="img-fluid rounded shadow w-100" alt="" style="height: 350px;">
+          </div>
+          <div class="col-md-5 order-md-1 order-2">
+            <div class="content">
+            <h1>Localización</h1> 
+                <p> La localización es una característica del software que indica la forma que se concentra la información dentro de un programa. En el contexto OO, la información se concentra mediante el encapsulamiento tanto de datos como de procesos dentro de los límites de una clase u objeto </p>
 
+                <p> Dado que el software convencional hace hincapié en las funciones como mecanismos de localización, las métricas de software se han centrado en la estructura interna o complejidad de las funciones (p. ej.: longitud del módulo, cohesión, o complejidad ciclomática) o bien en la forma en que las funciones se conectan entre sí (p. ej.: acoplamiento de módulos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-5">
+          <br><img src="images/semanas/sem8.4.jpg" class="img-fluid rounded shadow w-100" alt="about-img">
+        </div>
+        <div class="col-md-5">
+          <div class="content">
+            <h2>Encapsulamiento</h2>            
+            <p>Para los sistemas 00, el encapsulamiento comprende las responsabilidades de una clase, incluyendo sus atributos (y otras clases para objetos agregados) y operaciones, y los estados de la clase, según se definen mediante valores específicos de atributos.
+            Influye en las métricas cambiando el objetivo de la medida, que pasa de ser un único módulo a ser un paquete de datos (atributos) y de  módulos de procesamiento (operaciones).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-5 order-md-2 order-1">
+            <img src="images/semanas/sem8.2.png" class="img-fluid rounded shadow w-100" alt="" style="height: 350px;">
+          </div>
+          <div class="col-md-5 order-md-1 order-2">
+            <div class="content">
+            <h1>Herencia </h1> 
+                <p> Dado que la herencia es una característica fundamental de muchos sistemas 00, hay muchas métricas 00 que se centran en ella. Esto se conocerá entre los ejemplos que se tratarán más adelante: se cuentan el número de descendientes (número de instancias inmediatas de una clase), número de predecesores (número de generalizaciones inmediatas), y grado de anidamiento de la jerarquía de clases (profundidad de una clase dentro de una jerarquía de herencia) y otros.</p>
+          </div>
+        </div>
+      </div>
     </div> <!-- End container -->
   </section> <!-- End section -->
 
